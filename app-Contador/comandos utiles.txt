@@ -1,0 +1,9 @@
+
+habilitar scripts en powershell de windows
+
+npm run dev  (comando de node para correr en desarrollo)
+
+
+TRABAJANDO EN YARN
+
+yarn dev
