@@ -6,10 +6,14 @@ import  {MiApp} from './PrimerComponente';
 import './estilos.css';
 
 
-/* con el metodo getElement busco el id root o el que sea, y a ese lo renderizo a react, y le paso la funcionn al cuerpo del render */
-ReactDOM.createRoot(document.getElementById('root')).render(
+/* con el metodo getElement busco el id base o el que sea (root), y a ese lo renderizo a react, y le paso la funcionn al cuerpo del render */
+ReactDOM.createRoot(document.getElementById('Base')).render(
     /* este dom hace lo que un document.createElement.... */
+    /* este es el padre que le mande las props a los hijos (funcional components) */
         <reactStrictMode>
-            <MiApp />        
+            <MiApp titulo= "bienvenido a mi componente"  
+                altura ={183} 
+    /* si aqui uso llaves puedo pasarle numeros aunque me pida string el proptype */ 
+                />        
         </reactStrictMode>
     );

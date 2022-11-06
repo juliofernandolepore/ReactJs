@@ -35,6 +35,8 @@ js o ts (variante typescript o javascript)
 
 yarn dev   (PARA EJECUTAR LA APP)
 
+instalar PropTypes con el comando yarn add prop-types
+
 ---
 
 para crear la app de react con CRA, los comandos son los siguientes:
